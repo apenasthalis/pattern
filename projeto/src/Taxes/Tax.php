@@ -1,6 +1,6 @@
 <?php
 
-namespace Pericao\Pattern;
+namespace Pericao\Pattern\Taxes;
 
 use Pericao\Pattern\Budget;
 

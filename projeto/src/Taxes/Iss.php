@@ -1,7 +1,8 @@
 <?php
 
-namespace Pericao\Pattern;
-use Pericao\Pattern\Tax;
+namespace Pericao\Pattern\Taxes;
+use Pericao\Pattern\Budget;
+use Pericao\Pattern\Taxes\Tax;
 
 class Iss implements Tax
 {

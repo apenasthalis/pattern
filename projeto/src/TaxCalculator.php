@@ -1,7 +1,7 @@
 <?php 
 
 namespace Pericao\Pattern;
-use Pericao\Pattern\Tax;
+use Pericao\Pattern\Taxes\Tax;
 
 class TaxCalculator 
 {

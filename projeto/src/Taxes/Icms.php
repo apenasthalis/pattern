@@ -1,9 +1,9 @@
 <?php
 
-namespace Pericao\Pattern;
-use Pericao\Pattern\Tax;
+namespace Pericao\Pattern\Taxes;
+use Pericao\Pattern\Budget;
 
-class Icms implements Tax
+class Icms implements \Pericao\Pattern\Taxes\Tax
 {
     public function CalculateTax(Budget $budget): float
     {
