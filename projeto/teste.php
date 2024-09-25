@@ -16,8 +16,8 @@ require 'vendor/autoload.php';
 
 $calcultator = new DiscountCalculator();
 $budget = new Budget();
-$budget->value = 700;
-$budget->itemQuantity = 6;
+$budget->value = 400;
+$budget->itemQuantity = 4;
 $resultDiscountOfBudget = $calcultator->calculateDiscount($budget);
 
 print $resultDiscountOfBudget . PHP_EOL;

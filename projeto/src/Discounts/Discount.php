@@ -3,6 +3,10 @@
 namespace Pericao\Pattern\Discounts;
 use Pericao\Pattern\Budget;
 
+/*
+    chain of responsability
+*/
+
 abstract class Discount 
 {
     protected ?Discount $nextDiscount;
