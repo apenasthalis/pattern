@@ -10,10 +10,10 @@ Class Budget
     public float $value;
     public int $itemQuantity;
     public BudgetState $currentState;
-    public function __construct()
-    {
-        $this->currentState = new InApproval();
-    }
+    // public function __construct()
+    // {
+    //     $this->currentState = new InApproval();
+    // }
 
     public function applyExtraDiscounts()
     {
